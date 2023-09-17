@@ -11,7 +11,7 @@
 - **React Router**: librería para manejar el enrutamiento de la aplicación
 - **DaisyUI**: librería de componentes pre-estilizados con **TailwindCSS**
 
-## 👷 Arquitectura:
+## 👷 Estructura:
 ```
 └── /src
   ├── /components
