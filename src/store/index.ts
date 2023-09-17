@@ -74,8 +74,6 @@ export const useStore = create<Store>()(
                     if (user.password !== userCredentials.password)
                         throw new Error("Credenciales inválidas")
 
-                    console.log({ user })
-
                     setUserToLocalStorage(user)
                     set({ user })
                 },
